@@ -44,6 +44,7 @@ void FormationOfRowsInDescendingOrder(int[,] array)
 
 int[,] CreatePrint2DArray(int rows, int columns)
 {
+    Console.WriteLine();
     Console.WriteLine("Задан массив:");
     int[,] array = new int[rows, columns];
     for (int i = 0; i < rows; i++)
